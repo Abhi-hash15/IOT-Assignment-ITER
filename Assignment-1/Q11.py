@@ -1,0 +1,6 @@
+num=int(input("enter num: "))
+print(num%2!=0)
+print((num//2)*2!=num)
+print(num&1!=0)
+print(num|1==num)
+print(num^1<num)
